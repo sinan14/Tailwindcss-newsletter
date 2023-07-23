@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+// @tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// html {
+//   // This defines what 1rem is
+//   font-size: 62.5%;
+// }
+:root {
+  --default-fontSize: 1.6rem;
+  --Tomato: rgb(255, 98, 87);
+  --Tomato2: rgb(255, 98, 87);
+  // --Dark-Slate-Grey: #ff49db;
+  // --Dark-Slate-Grey2: #ff49db;
+  --Charcoal-Grey: #36384e;
+  --Grey: #9294a0;
+  --Charcoal: #273444;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  width: 100%;
+  height: 100vh;
+}
