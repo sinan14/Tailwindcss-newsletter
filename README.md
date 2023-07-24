@@ -1,4 +1,5 @@
 # Frontend Mentor - Newsletter sign-up form with success message
+View in github pages at https://sinan14.github.io/Tailwindcss-newsletter
 
 ![Design preview for the Newsletter sign-up form with success message coding challenge](./design/desktop-preview.jpg)
 
